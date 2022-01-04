@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="proj2.css">
+    <title>Text Analyser</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="text">
+                <h2>Text Analyser</h2>
+                <p><textarea name="address" id="" cols="100" rows="10" placeholder="Type or paste your text here..."></textarea> </p>
+                <button type="button" id="process-btn">Process Text</button>
+            </div>
+            <div class="text-info">
+                <h2>Text Analysis</h2>
+                <div class="text-info-list">
+                <ul>
+                    <li>
+                        <p>Character Count:</p>
+                        <span id="char"></span>
+                    </li>
+                    <li>
+                        <p>Space Count:</p>
+                        <span id="space"></span>
+                    </li>
+                    <li>
+                        <p>Punctuation Count:</p>
+                        <span id="punc"></span>
+                    </li>
+                    <li>
+                        <p>Word Count:</p>
+                        <span id="word"></span>
+                    </li>
+                    <li>
+                        <p>Sentence Count:</p>
+                        <span id="sentnc"></span>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="proj2.js"></script>
+</body>
+</html>
